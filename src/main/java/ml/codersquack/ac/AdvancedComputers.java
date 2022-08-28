@@ -20,7 +20,7 @@ public class AdvancedComputers
   // Directly reference a log4j logger.
   //private static final Logger LOGGER = LogManager.getLogger();
   public static final String MOD_ID = "advancedcomputers";
-  public static final ItemGroup ACITEMS = new ACitems("AC Items");
+  public static final ItemGroup ACITEMS = new ACitems("ACItems");
   public AdvancedComputers() {
       IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
       FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
