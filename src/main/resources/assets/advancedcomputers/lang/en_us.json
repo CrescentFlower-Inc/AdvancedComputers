@@ -1,5 +1,7 @@
 {
   "item.advancedcomputers.platter": "Hard Drive Platter",
   "item.advancedcomputers.head": "Hard Drive Head",
+  "item.advancedcomputers.netweb": "Netweb",
+  "item.advancedcomputers.transistor": "Transistor",
   "itemGroup.ACItems": "AC Items"
 }

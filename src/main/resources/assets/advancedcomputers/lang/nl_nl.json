@@ -1,5 +1,7 @@
 {
   "item.advancedcomputers.platter": "Harde Schijf Plaat",
   "item.advancedcomputers.head": "Harde Schijf Kop",
+  "item.advancedcomputers.netweb": "Netwerk Web",
+  "item.advancedcomputers.transistor": "Transistor",
   "itemGroup.ACItems": "AC Items"
 }

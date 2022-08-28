@@ -1,5 +1,7 @@
 {
   "item.advancedcomputers.platter": "Пластина жёсткого диска",
   "item.advancedcomputers.head": "Головка жёсткого диска",
-  "itemGroup.ACItems": "AC Items"
+  "item.advancedcomputers.netweb": "Сетевая паутина",
+  "item.advancedcomputers.transistor": "Транзистор",
+  "itemGroup.ACItems": "AdvancedComputers: Предметы"
 }
