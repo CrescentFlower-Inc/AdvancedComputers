@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "advancedcomputers:items/platter"
+    "layer0": "advancedcomputers:items/Platter"
   }
 }
