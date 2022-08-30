@@ -4,5 +4,15 @@
   "item.advancedcomputers.netweb": "Netweb",
   "item.advancedcomputers.transistor": "Transistor",
   "item.advancedcomputers.ceramicpowder": "Ceramic Powder",
+  "item.advancedcomputers.microchip1": "Microchip (Tier 1)",
+  "item.advancedcomputers.microchip2": "Microchip (Tier 2)",
+  "item.advancedcomputers.microchip3": "Microchip (Tier 3)",
+  "item.advancedcomputers.microchip4": "Microchip (Tier 4)",
+  "item.advancedcomputers.rawcircuitboard": "Raw Circuit Board",
+  "item.advancedcomputers.printedcircuitboard": "Printed Circuit Board",
+  "item.advancedcomputers.cardbase": "Card Base",
+  "item.advancedcomputers.arrowkeys": "Arrow Keys",
+  "item.advancedcomputers.buttongroup": "Button Group",
+  "item.advancedcomputers.numpad": "Numpad",
   "itemGroup.ACItems": "AC Items"
 }

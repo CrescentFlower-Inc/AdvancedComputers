@@ -4,5 +4,15 @@
   "item.advancedcomputers.netweb": "Сетевая паутина",
   "item.advancedcomputers.transistor": "Транзистор",
   "item.advancedcomputers.ceramicpowder": "Керамический порошок",
+  "item.advancedcomputers.microchip1": "Микросхема (Уровень 1)",
+  "item.advancedcomputers.microchip2": "Микросхема (Уровень 2)",
+  "item.advancedcomputers.microchip3": "Микросхема (Уровень 3)",
+  "item.advancedcomputers.microchip4": "Микросхема (Уровень 4)",
+  "item.advancedcomputers.rawcircuitboard": "Необработанная печатная плата",
+  "item.advancedcomputers.printedcircuitboard": "Напечатанная печатная плата",
+  "item.advancedcomputers.cardbase": "Основа карты",
+  "item.advancedcomputers.arrowkeys": "Клавиши со стрелками",
+  "item.advancedcomputers.buttongroup": "Группа кнопок",
+  "item.advancedcomputers.numpad": "Цифровой блок",
   "itemGroup.ACItems": "AdvancedComputers: Предметы"
 }
