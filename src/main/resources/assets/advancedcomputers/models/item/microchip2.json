@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-      "layer0": "advancedcomputers:items/Microchip2"
+      "layer0": "advancedcomputers:items/microchip2"
     }
   }

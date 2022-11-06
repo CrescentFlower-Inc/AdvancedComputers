@@ -8,10 +8,10 @@
   "item.advancedcomputers.microchip2": "Сhip (Tier 2)",
   "item.advancedcomputers.microchip3": "Сhip (Tier 3)",
   "item.advancedcomputers.microchip4": "Сhip (Tier 4)",
-  "item.advancedcomputers.rawcircuitboard": "Ruwe Printplaat",
-  "item.advancedcomputers.printedcircuitboard": "Printplaat",
+  "item.advancedcomputers.rawcircuitboard": "Rauwe Circuit Bord",
+  "item.advancedcomputers.printedcircuitboard": "Geprinte Circuit Bord",
   "item.advancedcomputers.cardbase": "Kaartbasis",
-  "item.advancedcomputers.arrowkeys": "Pijltjestoetsen",
+  "item.advancedcomputers.arrowkeys": "Pijltjes",
   "item.advancedcomputers.buttongroup": "Knop Groep",
   "item.advancedcomputers.numpad": "Numpad",
   "itemGroup.ACItems": "AC Items"

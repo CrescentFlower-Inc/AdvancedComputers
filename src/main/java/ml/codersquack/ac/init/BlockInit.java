@@ -1,4 +1,4 @@
-package ml.codersquack.ac.core.init;
+package ml.codersquack.ac.init;
 
 import ml.codersquack.ac.AdvancedComputers;
 import net.minecraftforge.fml.RegistryObject;
