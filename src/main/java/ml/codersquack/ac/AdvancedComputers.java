@@ -1,5 +1,6 @@
 package ml.codersquack.ac;
 
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -7,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.RegistryObject;
 //import org.apache.logging.log4j.LogManager;
 //import org.apache.logging.log4j.Logger;
 
@@ -20,7 +22,7 @@ public class AdvancedComputers
   // Directly reference a log4j logger.
   //private static final Logger LOGGER = LogManager.getLogger();
   public static final String MOD_ID = "advancedcomputers";
-  public static final ItemGroup ACITEMS = new ACitems("ACItems");
+  public static final ItemGroup ACITEMS = new Tab("ACItems", ItemInit.ACIG);
   public AdvancedComputers() {
       IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
       FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -35,14 +37,17 @@ public class AdvancedComputers
   {
   }
 
-  public static class ACitems extends ItemGroup {
-    public ACitems(String label){
+  public static class Tab extends ItemGroup {
+    private RegistryObject<Item> icon;
+
+    public Tab(String label, RegistryObject<Item> icon){
       super(label);
+      this.icon = icon;
     }
 
     @Override
     public ItemStack makeIcon(){
-      return ItemInit.ACIG.get().getDefaultInstance();
+      return this.icon.get().getDefaultInstance();
     }
   }
 }
